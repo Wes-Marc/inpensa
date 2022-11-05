@@ -11,7 +11,7 @@ function App() {
         <Header />
       </section>
       <section className={styles.bottom_half}>
-        <h1>Hello World</h1>
+        
       </section>
     
     </>
