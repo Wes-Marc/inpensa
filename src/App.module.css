@@ -1,0 +1,5 @@
+.top_half {
+    width: 100vw;
+    height: 50vh;
+    background: var(--bg-top-half);
+}

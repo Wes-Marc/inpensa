@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.header .content .logo {
+    font-weight: 500;
+    color: var(--white);
+}
+
+.header .content .buttons {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}

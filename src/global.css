@@ -1,0 +1,97 @@
+:root {
+    /* All Colors */
+    --blue-300: #2D82B7;
+    --green-300: #00B37E;
+    --green-500: #00875F;
+    --green-700: #345511;
+    --pink-200: #D14081;
+    --purple-500: #7E2E84;
+    --red-500: #88292F;
+    --gray-100: #E1E1E6;
+    --gray-300: #C4C4CC;
+    --black: #07090B;
+    --soft-black: #0E1111;
+    --white: #ffffff;
+
+    /* Categories Colors */
+    --investimento: var(--purple-500);
+    --comida: var(--pink-200);
+    --diversao: var(--blue-300);
+    --aluguel: var(--green-700);
+    --veiculo: var(--red-500);
+    --guardar: var(--green-500);
+
+    /* Elements Colors */
+    --bg-top-half: var(--black);
+    --bg-bottom-half: var(--white);
+
+    --cta-novo: var(--green-500);
+    --cta-salvar: var(--green-500);
+
+    /* Typography */
+    --heading-1: 3.5rem;
+    --heading-2: 3rem;
+    --heading-3: 2.5rem;
+    --heading-4: 2rem;
+    --heading-5: 1.5rem;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: var(--heading-1);
+}
+
+h2 {
+    font-size: var(--heading-2);
+}
+
+h3 {
+    font-size: var(--heading-3);
+}
+
+h4 {
+    font-size: var(--heading-4);
+}
+
+h5 {
+    font-size: var(--heading-5);
+}
+
+/* Cta */
+.cta-novo {
+    background: var(--cta-novo);
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    line-height: 18px;
+    cursor: pointer;
+
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cta-novo:hover {
+    background: var(--green-300);
+}

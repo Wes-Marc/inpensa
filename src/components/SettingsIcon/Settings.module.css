@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .icon {
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.wrapper .icon:hover {
+    transform: rotate(90deg);
+}
