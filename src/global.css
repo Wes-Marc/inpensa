@@ -95,3 +95,22 @@ h5 {
 .cta-novo:hover {
     background: var(--green-300);
 }
+
+.cta-salvar {
+    background: var(--cta-salvar);
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 28px;
+    width: 12.5rem;
+    padding: 0.75rem 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cta-salvar:hover {
+    background: var(--green-300);
+}
