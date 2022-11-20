@@ -2,7 +2,7 @@
     grid-area: salario;
     justify-self: center;
     padding: 0.625rem 0.9375rem;
-    border-bottom: 1px solid var(--gray-100);
+    border-bottom: 1.5px solid var(--gray-100);
 }
 .wrapper p {
     color: var(--gray-100);
