@@ -3,3 +3,15 @@
     height: 50vh;
     background: var(--bg-top-half);
 }
+
+.top_dashboard {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    'salario salario salario salario salario'
+    'guardar aluguel veiculo comida diversao';
+    margin: 7.125rem auto 0;
+    max-width: 66.625rem; /* 1066px */
+    height: fit-content;
+}
