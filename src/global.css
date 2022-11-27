@@ -75,6 +75,8 @@ h4 {
 
 h5 {
     font-size: var(--heading-5);
+    font-weight: 500;
+    line-height: 28px;
 }
 
 /* Cta */

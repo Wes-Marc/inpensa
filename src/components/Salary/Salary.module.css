@@ -1,0 +1,15 @@
+.wrapper {
+    grid-area: salario;
+    justify-self: center;
+    padding: 0.625rem 0.9375rem;
+    border-bottom: 1.5px solid var(--gray-100);
+}
+.wrapper p {
+    color: var(--gray-100);
+    line-height: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper h5 {
+    color: var(--white);
+}

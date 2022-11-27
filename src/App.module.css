@@ -3,3 +3,181 @@
     height: 50vh;
     background: var(--bg-top-half);
 }
+
+.top_dashboard {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto 80px auto;
+    grid-template-areas: 
+    'salario salario salario salario salario'
+    'line1 line2 line3 line4 line5'
+    'guardar aluguel veiculo comida diversao';
+    margin: 3rem auto 0;
+    max-width: 66.625rem; /* 1066px */
+    height: fit-content;
+}
+
+/* #region Line 1 */
+.top_dashboard .line_h_1 {
+    grid-area: line1;
+    position: relative;
+}
+
+.top_dashboard .line_h_1::before {
+    content: '';
+    position: absolute;
+    background: #E1E1E6;
+    width: 50%;
+    height: 1.5px;
+    top: 1.875rem;
+    left: 50%;
+}
+
+.top_dashboard .line_v_1 {
+    grid-area: line1;
+    position: relative;
+}
+
+.top_dashboard .line_v_1::before {
+    content: '';
+    position: absolute;
+    background: #E1E1E6;
+    width: 2.125rem;
+    height: 1.5px;
+    top: 2.9375rem;
+    left: 42%;
+    transform: rotate(90deg);
+}
+/* #endregion */
+
+/* #region Line 2 */
+.top_dashboard .line_h_2 {
+    grid-area: line2;
+    position: relative;
+}
+
+.top_dashboard .line_h_2::before {
+    content: '';
+    position: absolute;
+    background: #E1E1E6;
+    width: 100%;
+    height: 1.5px;
+    top: 1.875rem;
+    left: 0;
+}
+
+.top_dashboard .line_v_2 {
+    grid-area: line2;
+    position: relative;
+}
+
+.top_dashboard .line_v_2::before {
+    content: '';
+    position: absolute;
+    background: #E1E1E6;
+    width: 2.125rem;
+    height: 1.5px;
+    top: 2.9375rem;
+    left: 42%;
+    transform: rotate(90deg);
+}
+/* #endregion */
+
+/* #region Line 3 */
+.top_dashboard .line_h_3 {
+    grid-area: line3;
+    position: relative;
+}
+
+.top_dashboard .line_h_3::before {
+    content: '';
+    position: absolute;
+    background: #E1E1E6;
+    width: 100%;
+    height: 1.5px;
+    top: 1.875rem;
+    left: 0;
+}
+
+.top_dashboard .line_v_3 {
+    grid-area: line3;
+    position: relative;
+}
+
+.top_dashboard .line_v_3::before {
+    content: '';
+    position: absolute;
+    background: #E1E1E6;
+    width: 3.9375rem;
+    height: 1.5px;
+    top: 1.9375rem;
+    left: 35%;
+    transform: rotate(90deg);
+}
+/* #endregion */
+
+/* #region Line 4 */
+.top_dashboard .line_h_4 {
+    grid-area: line4;
+    position: relative;
+}
+
+.top_dashboard .line_h_4::before {
+    content: '';
+    position: absolute;
+    background: #E1E1E6;
+    width: 100%;
+    height: 1.5px;
+    top: 1.875rem;
+    left: 0;
+}
+
+.top_dashboard .line_v_4 {
+    grid-area: line4;
+    position: relative;
+}
+
+.top_dashboard .line_v_4::before {
+    content: '';
+    position: absolute;
+    background: #E1E1E6;
+    width: 2.125rem;
+    height: 1.5px;
+    top: 2.9375rem;
+    left: 42%;
+    transform: rotate(90deg);
+}
+/* #endregion */
+
+/* #region Line 5 */
+.top_dashboard .line_h_5 {
+    grid-area: line5;
+    position: relative;
+}
+
+.top_dashboard .line_h_5::before {
+    content: '';
+    position: absolute;
+    background: #E1E1E6;
+    width: 50%;
+    height: 1.5px;
+    top: 1.875rem;
+    left: 0;
+}
+
+.top_dashboard .line_v_5 {
+    grid-area: line5;
+    position: relative;
+}
+
+.top_dashboard .line_v_5::before {
+    content: '';
+    position: absolute;
+    background: #E1E1E6;
+    width: 2.125rem;
+    height: 1.5px;
+    top: 2.9375rem;
+    left: 42%;
+    transform: rotate(90deg);
+}
+/* #endregion */

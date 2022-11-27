@@ -1,0 +1,28 @@
+.wrapper {
+    justify-self: center;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+.wrapper p {
+    color: var(--gray-100);
+    line-height: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper h5 {
+    color: var(--white);
+}
+
+.wrapper .porcentagem {
+    display: flex;
+    background: var(--green-500);
+    border-radius: 20px;
+    color: var(--white);
+    font-size: 0.875rem;
+    justify-content: center;
+    align-items: center;
+    height: 1.75rem;
+    width: 3.0625rem;
+}
