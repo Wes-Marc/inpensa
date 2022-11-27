@@ -1,13 +1,14 @@
-.wrapper {
+.setting {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
-.wrapper .icon {
+.setting .icon {
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
 }
 
-.wrapper .icon:hover {
+.setting .icon:hover {
     transform: rotate(90deg);
 }

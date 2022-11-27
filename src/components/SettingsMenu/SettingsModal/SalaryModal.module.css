@@ -1,0 +1,67 @@
+.closed {
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+    padding: 1.5rem;
+    position: absolute;
+    bottom:-222px;
+    left: -295px;
+    border-radius: 8px;
+}
+
+.modal .input_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.modal .input_wrapper label {
+    font-size: 1.5rem;
+    line-height: 28px;
+}
+
+.modal .input_wrapper input {
+    font-size: 1.5rem;
+    line-height: 28px;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    width: 16.9375rem;
+    outline: 1px solid var(--gray-300);
+    border-radius: 8px;
+}
+
+.modal .input_wrapper #currency {
+    position: relative;
+    display: inline-block;
+}
+
+.modal .input_wrapper #currency::before {
+    content: 'R$';
+    position: absolute;
+    font-size: 1.5rem;
+    line-height: 28px;
+    top: 12px;
+    left: 1.5rem;
+}
+
+.modal .input_wrapper input[type=number] {
+    padding-left: 4.0625rem;
+}
+
+.modal .input_wrapper input[type=number]:focus {
+    outline: 2px solid var(--green-500);
+}
+
+.cta_wrapper {
+    display: flex;
+    justify-content: center;
+}
