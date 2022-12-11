@@ -4,6 +4,7 @@ import { Category } from './components/Category/Category';
 
 import styles from './App.module.css';
 import './global.css';
+import { EntryDashboard } from './components/EntryDashboard/EntryDashboard';
 
 function App() {
 
@@ -36,7 +37,7 @@ function App() {
         </section>
       </section>
       <section className={styles.bottom_half}>
-        
+        <EntryDashboard />
       </section>
     
     </>

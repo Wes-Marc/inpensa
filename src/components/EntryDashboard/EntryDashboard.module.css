@@ -1,0 +1,10 @@
+.dashboard {
+    width: 984px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    background: var(--white);
+    box-shadow: 0px 4px 16px rgba(196, 196, 204, 0.3);
+    position: relative;
+    top: -130px;
+    z-index: 2;
+}
